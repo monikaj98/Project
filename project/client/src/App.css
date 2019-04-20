@@ -1,0 +1,466 @@
+.App {
+  text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.logo{
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.list{
+    padding-right: 30px;
+}
+.home{
+    background-image: url("https://imgur.com/baEzCEL.jpg");
+    height: 700px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+	color: black;
+}
+.sub{
+    font-family: 'Courgette', cursive;
+    margin-left: 120px;
+	color: black;
+	font-size:100px;
+}
+.login{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+.log{
+     margin: auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.label{
+    font-size: 20px;
+}
+.foot{
+    text-align: left;
+    color: blue;
+    cursor: pointer;
+}
+.foot:hover{
+    text-decoration: underline;
+}
+.reg{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.sub1{
+    font-family: 'Courgette', cursive;
+    margin-top: 50px;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-left: 40px;
+	background-image: linear-gradient(#ff9966,#ff5e62);
+	margin-left:140px;
+	margin-right: 140px;
+	color:black;
+	padding:0px;
+	border-radius: 25px;
+	border:5px solid black;
+}
+.img1{
+    float: left;
+    margin: 30px;
+    margin-left: 5%;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+	border-radius:100px;
+	border:10px solid #ff9966;
+}
+.card1{
+    margin: 120px;
+    margin-top: 0;
+    overflow: hidden;
+	border-radius:20px;
+	box-shadow: 10px 20px 20px 10px;
+}
+.img2{
+    float: right;
+    margin: 30px;
+    margin-right: 5%;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+	border-radius:100px;
+	border:10px solid #ff9966;
+	
+}
+.text{
+    margin: 50px;
+    font-size: 18px;
+}
+#cam{
+	height:50px;
+	width:50px;
+}
+#register, #login {
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+
+form label, form input {
+  display: block;
+  //margin-bottom: 10px;
+  width: 90%
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+#bird
+{
+	height:70px;
+	width:70px;
+	border-radius: 20px;
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+#hills{
+	height:70px;
+	width:70px;
+}
+.subabout{
+	font-family: 'Courgette', cursive;
+    margin-top: 50px;
+    font-size: 60px;
+    padding-top: 50px;
+	background-image: linear-gradient(#ff9966,#ff5e62);
+	margin-left:540px;
+	margin-right:540px;
+	color:black;
+	padding:0px;
+	border-radius: 50px;
+	border:5px solid black;
+}
+.cardabout
+{
+	 margin: 120px;
+    margin-top: 0;
+    overflow: hidden;
+	border-radius:50px;
+	box-shadow: 10px 20px 30px 10px;
+}
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+#homediv
+{
+	
+}
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+.card2{
+    margin-top: 30px;
+    overflow: hidden; 
+	border-radius: 20px;
+	box-shadow: 20px 20px 20px 10px;
+	
+}
+#homediv
+{
+	background: url('http://fpstatic.blob.core.windows.net/asset-1000/181243.jpg');
+	background-size: cover;
+}
+.timeline-page{
+    margin: 50px;
+    margin-left: 100px;
+    text-align: left;
+}
+.like{
+    font-family: 'Merienda', cursive;
+    margin: 1%;
+    text-align: left;
+}
+
+
+.image{
+    width: 350px;
+    height: 250px;
+    margin: 35px 0 0 0;
+}
+.card3{
+    margin: 100px;
+    margin-top: 40px;
+    overflow: hidden;
+    background-size: cover;
+	border-radius:50px;
+	box-shadow:10px 10px 10px 10px;
+}
+.im{
+    margin-left: 180px;
+    padding: 0 35px 15px;
+}
+.im1{
+	font-family: 'Courgette', cursive;
+    padding-top: 15px;
+    margin-left: 180px;
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+	
+}
+
+.AddComment1{
+    width: 50%;
+}
+.btn{
+    width: 20%;
+}
+.time{
+    width:60%;
+    height:60%;
+}
+#ico{
+	height:70px;
+	width:70px;
+	border-radius:50px;
+}
+.st{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.left-align h2{
+    margin-left: 150px;
+}
+.card5{
+    margin: 0 5%;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 25px;
+	border-radius:20px;
+	box-shadow:20px 20px 20px 10px;
+}
+.card5 h4{
+    padding-top: 180px;
+    padding-right: 40px;
+}
+.heading1{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#gp
+{
+	border:5px solid #ff5e62;
+	border-radius:10px;
+}
+#regi
+{
+	font-size:20px;
+	font-weight: bold;
+}
+#regi1
+{
+	font-size:30px;
+	font-weight: bold;
+}
+#bel
+{
+	font-size:40px;
+	background-image: linear-gradient(#ff9966,#ff5e62);
+	margin-left:20px;
+	margin-right: 40px;
+	color:black;
+	padding:10px;
+	text-align: center;
+	border-radius: 50px;
+	border:5px solid black;
+}
+#regi2
+{
+	font-size:15px;
+	font-weight: bold;
+}
+#gpt{
+	background-image: linear-gradient(#ff9966,#ff5e62);
+	margin-left:120px;
+	margin-right: 540px;
+	color:black;
+	padding:10px;
+	text-align: center;
+	border-radius: 50px;
+	border:5px solid black;
+}
+.detail1 img{
+    width: 850px;
+    height: 500px;
+    float: left;
+    margin: 2%;
+}
+.detail2{
+   margin-top: 5%;
+}
+#tpp{
+	height:100px;
+	width:100px;
+	border-radius: 80px;
+}
+#tppo
+{
+	height:80px;
+	width:80px;
+	border-radius: 80px;
+}
+.card4{
+    
+    overflow: hidden;
+    background: url('http://eskipaper.com/images/backgrounds-6.jpg');
+    background-size: cover;
+}
+.fileInput{
+  border:none;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+#foot{
+	font-size:20px;
+}
+#follow{
+	font-size:30px;
+	font-family:'Courgette', cursive;
+}
+.comm{
+    width: 80%;
+    text-align: left;
+    margin-left: 50px;
+}
+.comm1{
+    width: 80%;
+    text-align: left;
+    margin-left: 220px;
+}
+.detail3 img{
+    width: 720px;
+    height: 420px;
+    float: left;
+    margin: 12%;
+}
+.detail4{
+   margin: 12%;
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+	font-size:20px;
+	font-family:'Courgette', cursive;
+}
+#logout{
+	font-size:20px;
+}
+.image1{
+    width: 400px;
+    height: 250px;
+    margin: 35px 0 0 0;
+}
+#tp
+{
+	border-radius:80px;
+	height:350px;
+	width:450px;
+}
+.im2{
+    margin-left: 180px;
+    padding: 0 35px 15px;
+}
+.like1{
+    font-family: 'Courgette', cursive;
+    margin: 2%;
+    margin-left: 180px;
+}
+.text3{
+    color: crimson;
+    font-weight: bold;
+    font-size: 18px;
+}
+.heading{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 85px;
+    margin-left: 150px;
+	text-align:center;
+}
+#trp
+{
+	border:15px solid #ff9966;
+}
+.s{
+    
+    background: url('https://imgur.com/gCsXfsh.jpg');
+    background-size: cover;
+	border-radius:100px;
+}
+#st2back
+{
+	background-image: linear-gradient(#ff9966,#ff5e62);
+}
+.sub2{
+    font-family: 'Courgette', cursive;
+    margin-top: 30px;
+    font-size: 60px;
+	text-align: center;
+	background-image: linear-gradient(#ff9966,#ff5e62);
+	margin-left:340px;
+	margin-right: 340px;
+	color:black;
+	padding:10px;
+	border-radius: 50px;
+	border:5px solid black;
+    font-weight: bold;
+   
+}
+.st2{
+    margin-left: 480px;
+    font-weight: bold;
+    
+}
+.bt{
+    border-radius: 5px;
+    color: red;
+}
